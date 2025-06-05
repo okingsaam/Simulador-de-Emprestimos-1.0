@@ -1,0 +1,86 @@
+#nome= input ("qual seu nome ?")
+#print("olá", nome)
+
+#idade = input ("qual sua idade ? ")
+#print("tenho", idade, "anos")
+#------------------------------------------------------------------------------------------------------------------------------
+#nome= input('me informe seu nome')
+#Mes_de_nascimento=  input('infome o més de nasimento')
+#ano_de_nascimento= input('infome do ano de nascimento')
+
+#print("olá, meu nome é ",nome, "nasci em", Mes_de_nascimento, "do ano de  ", ano_de_nascimento)
+#------------------------------------------------------------------------------------------------------------------------------
+#idade = int(input("digite sua idade:"))
+#print(type("idade"))
+
+#idade = int(input("diga sua idade:"))
+#mes = int(input("diga seu mês de nasicmento:"))
+#ano = int (input ('diga seu ano de nascimento:'))
+
+#print("olá meu nome é Sam Douglas, tenho",idade,"de idade, nasci no mes",mes,"do ano",ano," e moro em Salvador")
+#-------------------------------------------------------------------------------------------------------------------------
+#idade = int (input("digite sua idade"))
+#resposta= input("voce está estudando ? (sim/não ):")
+
+#estudando = resposta.lower()=="sim"
+
+#maior_de_idade= idade >=18
+   
+#if maior_de_idade and estudando:
+#   print("voce é maior de idade e ainda está estudando .")
+#else:
+#   print("você Não é maior de idade e/ou Não está estudando")
+ #---------------------------------------------------------------------------------------------------------------------------------
+#nome =  input("qual seu nome?:") #input para capturar a informação no caso o nome 
+#idade = int(input("qual sua idade?:")) # int por conta de ser um nomero inteiro e nao apresentar quebras como no caso da altura
+#altura = float(input("qual sua altura:?")) #float por se tratar de numeros com pontos decimais 
+#resposta= input("voce gosta de estudar ? (sim/não):") # pra induzir a pergunta 
+
+#gosto_de_estudar = resposta.lower() in ["sim", "s"] #Converte a resposta para minúsculas e verifica se está entre "sim" ou "s"
+#if gosto_de_estudar:
+#   print("Meu nome é",nome,"tenho", idade,"anos",altura,"de altura e de verdade eu gosto muito de estudar:")
+#else:
+#   print("Meu nome é",nome,"tenho", idade,"anos",altura,"de altura e de verdade eu não gosto muito de estudar:")
+#----------------------------------------------------------------------------------------------------------------------------------
+#nome= input("qual seu nome?:")
+#idade= int(input("qual a sua idade?:")) 
+#altura= float(input("qual sua altura?:"))
+#resposta= input("voce gosta de comer pizza?:")
+
+#gosto_de_comer_pizza = resposta.lower() in ["sim", "s"]
+#if gosto_de_comer_pizza:
+#   print("meu nome é",nome,"tenho", idade,"anos",altura,"de altura e gosto de comer pizza.")
+#else:
+#   print("meu nome é",nome,"tenho", idade,"anos",altura,"de altura e não gosto de comer pizza.")
+#-----------------------------------------------------------------------------------------------------------------------------------   
+#peso = float(input("qual seu peso(KG): "))
+#altura= float(input("qual sua altura?(M): "))
+
+#imc = peso /  (peso * altura)
+
+#print(f"seu imc é:{imc:.2f}")
+#-------------------------------------------------------------------------------------------------------------------------------
+#num1 = float(input("digite o primeiro numero:"))#VARIAVEL 01
+#num2 = float(input("digite o seungo numero:")) #VARIAVEL 02
+#=============OPERAÇÕES ARITIMETICAS======================= 
+#soma = num1 + num2
+#subtração = num1 - num2
+#multiplicação = num1 * num2
+#resto = num1 % num2
+#potencia = num1 ** num2
+                  #verificação antes da divisão 
+#if num2 != 0: 
+#    divisão = num1 / num2
+#    resto = num1 % num2
+#else:
+#    divisão = "erro de divisão por zero"
+#    resto =  "erro de divisão por zero "   
+
+#portencia = num1 ** num2
+#=========================RESULTADO==================================
+#print(f"\nresultado das operações entre {num1} e {num2}:")
+#print(f"soma:{soma}")
+#print(f"subtração:{subtração}")
+#print(f"multiplicação:{multiplicação}")
+#print(f"resto:{resto}")
+#print(f"potencia:{potencia}")
